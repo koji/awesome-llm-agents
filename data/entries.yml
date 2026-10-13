@@ -1989,6 +1989,14 @@ entries:
   summary: The Llama 3.2 collection of multilingual large language models (LLMs) is a collection of pretrained and instruction-tuned generative models in 1B and 3B sizes (text in/text out).
   url: https://huggingface.co/meta-llama/Llama-3.2-3B
   url_label: Hugging Face
+- category: small-models
+  section: null
+  tags:
+  - small-models
+  name: Tholos-2B
+  summary: 2B tool-use model fine-tuned from MiniCPM5-2B to act as the agent in the Tholos workspace app; passes 137 of 160 Tholos-Bench scenarios against 112 for MiniCPM5-2B. 1.56 GB Q4_K_M GGUF for Ollama and llama.cpp; Apache-2.0.
+  url: https://huggingface.co/mertkayacs/Tholos-2B
+  url_label: Hugging Face
 - category: decision-models
   section: null
   tags:
