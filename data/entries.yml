@@ -2569,3 +2569,11 @@ entries:
   url: https://github.com/K-Dense-AI/scientific-agent-skills
   tags:
   - skills
+- name: voygr-tech/placecall
+  category: skills
+  section: null
+  summary: Agent skill and hosted MCP server that let a coding agent phone US businesses for bookings and quotes and get back the outcome and transcript.
+  url: https://github.com/voygr-tech/placecall
+  tags:
+  - skills
+  - mcp
