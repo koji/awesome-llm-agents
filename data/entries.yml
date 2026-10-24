@@ -2485,6 +2485,13 @@ entries:
   url: https://github.com/domeccleston/sharegpt
   tags:
   - tools
+- name: Aident Loadout
+  category: tools
+  section: null
+  summary: Remote MCP server and CLI that gives Codex, Claude Code, Cursor, ChatGPT and other MCP clients your connected apps and 400+ expert-built Skills through one setup, with credentials kept in a vault and every action audit-logged.
+  url: https://aident.ai
+  tags:
+  - tools
 - name: obra/superpowers
   category: skills
   section: null
