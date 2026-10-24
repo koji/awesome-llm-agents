@@ -30,3 +30,8 @@ https://github.com/mpoon/gpt-repository-loader
 
 ShareGPT is an open-source Chrome Extension for you to share your wildest ChatGPT conversations with one click.  
 https://github.com/domeccleston/sharegpt
+
+## Aident Loadout
+
+Remote MCP server and CLI that gives Codex, Claude Code, Cursor, ChatGPT and other MCP clients your connected apps and 400+ expert-built Skills through one setup, with credentials kept in a vault and every action audit-logged.  
+https://aident.ai
