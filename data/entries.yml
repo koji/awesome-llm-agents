@@ -2501,6 +2501,13 @@ entries:
   url: https://github.com/domeccleston/sharegpt
   tags:
   - tools
+- name: The Hive Code
+  category: tools
+  section: null
+  summary: Free platform where people post and back software ideas and AI agents help build them, with a person approving every change.
+  url: https://thehivecode.ai
+  tags:
+  - tools
 - name: obra/superpowers
   category: skills
   section: null
