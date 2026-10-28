@@ -2153,6 +2153,22 @@ entries:
   section: null
   tags:
   - decision-models
+  name: DecisionNode / DecisionNode Flash
+  summary: "Hosted System One models by Bynn Intelligence (POST /v1/decide): text/JSON/images (up to 16, video as frames) in, typed choice/score/truth/number/point/box with calibrated confidence in one pass, no text generation, deterministic; 64k context; Flash p50 5ms, $0.035/1M input; full model p50 9ms, $0.042/1M input, output free; vendor benchmark (preliminary, Oct 2026, 15 suites) 0.817 mean vs Jev 0.803, Flash 0.783."
+  url: https://decisionnode.com/#model
+  url_label: DecisionNode
+- category: decision-models
+  section: null
+  tags:
+  - decision-models
+  name: DecisionNode Edge / Edge Mini
+  summary: Open-weight DecisionNode for own hardware: Edge 2.2B, Edge Mini 0.85B (CPU/constrained devices); same request shape and choice/score/truth/number/point/box types over text + images, offline on GPU/Mac/CPU/embedded; AGPL-3.0 via Hugging Face, commercial licence for closed products.
+  url: https://decisionnode.com/#model
+  url_label: DecisionNode
+- category: decision-models
+  section: null
+  tags:
+  - decision-models
   name: Jev-style long tail
   summary: Hobbyist/open Jev-style models (JevK5, Julia-1, lev, Kev-4B, Rune, CLM, ...) - mostly unbenchmarked; curated in the awesome-jev-tools list.
   url: https://github.com/v-modal/awesome-jev-tools
