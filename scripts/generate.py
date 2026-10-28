@@ -925,7 +925,7 @@ SITE_HTML = """
 <section class="callout"><div class="wrap callout-inner">
 <h2>Help curate the list</h2>
 <p>Found a model, tool, or framework that belongs here? Add it to the list — every entry starts as a contribution.</p>
-<a class="btn-cream" href="https://github.com/koji/awesome-llm-agents/blob/main/docs/contributing.md">Contribute</a>
+<a class="btn-cream" href="https://github.com/koji/awesome-llm-agents/blob/main/CONTRIBUTING.md">Contribute</a>
 </div></section>
 <footer class="site-footer"><div class="wrap footer-inner">
 <div class="brand">

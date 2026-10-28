@@ -44,7 +44,7 @@ Curated links for ChatGPT, LLMs, prompt engineering, agent frameworks, coding to
 3. Commit `data/entries.yml` together with the regenerated pages.
 4. If an item needs longer notes, create a dedicated page under `docs/entries/` using the template in `docs/templates/entry-template.md` and link to it from the entry's `url`.
 
-Detailed editing guidance lives in [docs/contributing.md](docs/contributing.md).
+Contribution guide: [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Browse Site
 
