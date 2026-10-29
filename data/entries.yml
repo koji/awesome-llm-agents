@@ -2593,3 +2593,10 @@ entries:
   url: https://github.com/K-Dense-AI/scientific-agent-skills
   tags:
   - skills
+- name: tonydzi/second-brain-starter-kit
+  category: skills
+  section: null
+  summary: Skills for Claude Code and Codex shipped as a plugin marketplace, with opt-in MCP memory and vault templates.
+  url: https://github.com/tonydzi/second-brain-starter-kit
+  tags:
+  - skills
