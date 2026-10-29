@@ -953,6 +953,14 @@ entries:
   section: null
   tags:
   - closed-models
+  name: OpenAI GPT-6.1 Terra
+  summary: "Released Oct 29, 2026. $1 input / $0.05 cached input / $5 output per 1M tokens (50% below GPT-5.6 Terra and GPT-6.1 Sol); fast/efficient tier with detailed visual reasoning and precise computer use; Terminal-Bench 4.0 50.3% at max effort (vs GPT-5.6 Terra 21.5%); API model gpt-6.1-terra, also in ChatGPT Work and Codex."
+  url: https://openai.com/index/introducing-gpt-6-1-terra/
+  url_label: OpenAI
+- category: closed-models
+  section: null
+  tags:
+  - closed-models
   name: OpenAI GPT-6 Sol
   summary: Released Sep 22, 2026. $2 input / $10 output per 1M tokens; replaces the entire GPT-5.6 tier.
   url: https://openai.com/index/gpt-6-sol/
