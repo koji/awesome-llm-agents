@@ -30,3 +30,8 @@ https://github.com/mpoon/gpt-repository-loader
 
 ShareGPT is an open-source Chrome Extension for you to share your wildest ChatGPT conversations with one click.  
 https://github.com/domeccleston/sharegpt
+
+## agent-qa
+
+Natural-language QA for Web, Android, and iOS through CLI/MCP, with inspectable run evidence, persistent memidex memory, and evidence-based self-improvement.  
+https://vostride.com
