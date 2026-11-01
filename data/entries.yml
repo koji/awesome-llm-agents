@@ -2509,6 +2509,12 @@ entries:
   url: https://github.com/domeccleston/sharegpt
   tags:
   - tools
+- name: agent-qa
+  category: tools
+  section: null
+  summary: Natural-language QA for Web, Android, and iOS through CLI/MCP, with inspectable run evidence, persistent memidex memory, and evidence-based self-improvement.
+  url: https://vostride.com
+  tags: [tools, testing, cli, mcp]
 - name: obra/superpowers
   category: skills
   section: null
