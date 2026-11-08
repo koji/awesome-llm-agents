@@ -30,3 +30,8 @@ https://github.com/mpoon/gpt-repository-loader
 
 ShareGPT is an open-source Chrome Extension for you to share your wildest ChatGPT conversations with one click.  
 https://github.com/domeccleston/sharegpt
+
+## Kapitsa
+
+Native C++ LLM inference engine for Apple silicon Macs (Metal kernels and the Neural Engine) that serves OpenAI- and Anthropic-compatible APIs and starts coding agents such as Claude Code, Codex and OpenCode on a local model.  
+https://github.com/nace-ai/kapitsa
