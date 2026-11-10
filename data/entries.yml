@@ -751,6 +751,17 @@ entries:
   section: CLI Coding Tools
   tags:
   - cli-coding-tools
+  name: Imagera Code
+  summary: Terminal coding agent on 276 coding models from one paid plan with one weekly limit
+  extra:
+    usage: Terminal-based, npm install (imagera-code); reads the project, edits files, runs tests, shows the diff
+    cli_native: 'Yes'
+  url: https://imagera.ai/code
+  url_label: Imagera Code
+- category: ide-and-cli
+  section: CLI Coding Tools
+  tags:
+  - cli-coding-tools
   - chatgpt-api-free
   subsection: ChatGPT API (Free)
   name: ChatGPT API
