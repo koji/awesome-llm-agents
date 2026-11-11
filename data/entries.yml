@@ -945,6 +945,22 @@ entries:
   section: null
   tags:
   - closed-models
+  name: OpenAI GPT-6 Cyber
+  summary: "Released Nov 5, 2026. $20 input / $2 cached / $100 output per 1M tokens; cyber-specialized GPT-6 Astra variant for authorized vulnerability research; 48.5% on ExploitGym (vs GPT-5.6 Cyber 32.1%); rated Critical for cybersecurity; API model gpt-6-cyber, restricted to approved Daybreak Red customers."
+  url: https://openai.com/index/introducing-gpt-6-cyber/
+  url_label: OpenAI
+- category: closed-models
+  section: null
+  tags:
+  - closed-models
+  name: OpenAI GPT-6 Rosalind
+  summary: "Released Oct 30, 2026. $15 input / $1.50 cached input / $75 output per 1M tokens; same weights as GPT-6 Astra, specialized for multistep life sciences research with scientific tool use; API model gpt-6-rosalind, restricted to organizations approved for Rosalind Research through the trusted-access program."
+  url: https://openai.com/index/introducing-gpt-rosalind/
+  url_label: OpenAI
+- category: closed-models
+  section: null
+  tags:
+  - closed-models
   name: OpenAI GPT-6.1 Sol
   summary: Released at DevDay, Sep 29, 2026. $2 input / $10 output per 1M tokens; 99.7% on ExploitBench (max effort).
   url: https://openai.com/index/gpt-6-1-sol/
@@ -1161,6 +1177,22 @@ entries:
   section: null
   tags:
   - closed-models
+  name: Claude Mythos 5.2
+  summary: "Released Nov 9, 2026. Same underlying model as Fable 5.2; $8 input / $40 output per 1M tokens; 89.6% on CVE Rediscovery; restricted to vetted organizations via the Cyber and Life Sciences Verification Programs."
+  url: https://www.anthropic.com/claude-fable-and-mythos-5-2
+  url_label: Anthropic
+- category: closed-models
+  section: null
+  tags:
+  - closed-models
+  name: Claude Fable 5.2
+  summary: "Released Nov 9, 2026. $8 input / $40 output per 1M tokens (down from $10/$50 for Fable 5.1); outputs up to 30% faster than Fable 5.1; improvements in coding, reasoning and vision; API model claude-fable-5-2."
+  url: https://www.anthropic.com/claude-fable-and-mythos-5-2
+  url_label: Anthropic
+- category: closed-models
+  section: null
+  tags:
+  - closed-models
   name: Claude Haiku 5.5
   summary: Released Oct 7, 2026. Cheapest and fastest Claude to date: $0.10 input / $0.50 output per 1M tokens for prompts up to 100k (~75% cheaper than Haiku 4.5); first Haiku-class model with adjustable effort; 1M context window.
   url: https://www.anthropic.com/claude-haiku-5-5
@@ -1333,6 +1365,22 @@ entries:
   summary: ''
   url: https://www.anthropic.com/claude/haiku
   url_label: Anthropic
+- category: closed-models
+  section: null
+  tags:
+  - closed-models
+  name: Gemini 4 Carbon
+  summary: "Released Nov 10, 2026 (announced Oct 28 for Fairwind defenders). Google's strongest model; introductory $2 input / $10 output per 1M tokens through Nov 30, 2026, then $4/$20; 1,048,576-token unified context; #1 on Artificial Analysis Intelligence Index v5.0 (59); API model gemini-4-carbon."
+  url: https://ai.google.dev/gemini-api/docs/models/gemini-4-carbon
+  url_label: Google
+- category: closed-models
+  section: null
+  tags:
+  - closed-models
+  name: Gemini 4 Argon
+  summary: "Released Oct 13, 2026. Introductory $2 input / $10 output per 1M tokens through Nov 30, 2026, then $4/$20; 1,048,576-token unified context with long decode up to 1M output tokens; #1 on the Vals Index; API model gemini-4-argon."
+  url: https://ai.google.dev/gemini-api/docs/models/gemini-4-argon
+  url_label: Google
 - category: closed-models
   section: null
   tags:
