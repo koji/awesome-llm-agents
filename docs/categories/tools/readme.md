@@ -30,3 +30,8 @@ https://github.com/mpoon/gpt-repository-loader
 
 ShareGPT is an open-source Chrome Extension for you to share your wildest ChatGPT conversations with one click.  
 https://github.com/domeccleston/sharegpt
+
+## Datacircle
+
+Find the best GTM APIs. A free, open API at api.datacircle.dev/v1 and an MCP server that agents call with no key.  
+https://datacircle.dev

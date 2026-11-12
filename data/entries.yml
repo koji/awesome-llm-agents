@@ -2557,6 +2557,13 @@ entries:
   url: https://github.com/domeccleston/sharegpt
   tags:
   - tools
+- name: Datacircle
+  category: tools
+  section: null
+  summary: Find the best GTM APIs. A free, open API at api.datacircle.dev/v1 and an MCP server that agents call with no key.
+  url: https://datacircle.dev
+  tags:
+  - tools
 - name: obra/superpowers
   category: skills
   section: null
