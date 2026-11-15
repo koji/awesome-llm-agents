@@ -1210,7 +1210,7 @@ entries:
   tags:
   - closed-models
   name: Claude Haiku 5.5
-  summary: Released Oct 7, 2026. Cheapest and fastest Claude to date: $0.10 input / $0.50 output per 1M tokens for prompts up to 100k (~75% cheaper than Haiku 4.5); first Haiku-class model with adjustable effort; 1M context window.
+  summary: Released Oct 7, 2026. Cheapest and fastest Claude to date $0.10 input / $0.50 output per 1M tokens for prompts up to 100k (~75% cheaper than Haiku 4.5); first Haiku-class model with adjustable effort; 1M context window.
   url: https://www.anthropic.com/claude-haiku-5-5
   url_label: Anthropic
 - category: closed-models
@@ -2090,7 +2090,7 @@ entries:
   tags:
   - decision-models
   name: TypeSafe AI Jev
-  summary: Reference decision model (launched Sep 15, 2026): typed Choice/Score/Noul questions over state data with single-pass non-autoregressive scoring; $0.042/1M input, output free; 64k context; hosted only.
+  summary: Reference decision model (launched Sep 15, 2026) typed Choice/Score/Noul questions over state data with single-pass non-autoregressive scoring; $0.042/1M input, output free; 64k context; hosted only.
   url: https://www.sanity.io/glossary/jev-typesafe-ai-model
   url_label: Sanity
 - category: decision-models
@@ -2098,7 +2098,7 @@ entries:
   tags:
   - decision-models
   name: OpenAI Decisions API
-  summary: Public beta since Oct 6, 2026 on gpt-6-luna: returns predicate/choice/score/refusal; text + base64-inline image; ~10x faster than Responses API (vendor claim); $0.10/1M input, output free; ZDR/HIPAA.
+  summary: Public beta since Oct 6, 2026 on gpt-6-luna returns predicate/choice/score/refusal; text + base64-inline image; ~10x faster than Responses API (vendor claim); $0.10/1M input, output free; ZDR/HIPAA.
   url: https://cellcog.ai/blog/openai-decisions-api/
   url_label: CellCog
 - category: decision-models
@@ -2106,7 +2106,7 @@ entries:
   tags:
   - decision-models
   name: Microsoft Decision-1
-  summary: Foundry preview: Yes/No, choice, rating, and agent-action rubric scoring; single pass, 32k context; Qwen3.5-9B base, open weights; $0.042/1M input, output free.
+  summary: Foundry preview Yes/No, choice, rating, and agent-action rubric scoring; single pass, 32k context; Qwen3.5-9B base, open weights; $0.042/1M input, output free.
   url: https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473
   url_label: The Register
 - category: decision-models
@@ -2122,7 +2122,7 @@ entries:
   tags:
   - decision-models
   name: Perplexity pplx-decider-v1-27b
-  summary: Apache 2.0, 27B (Qwen3.8-27B-based): Yes/No, multi-choice, ordered score; 262k context; API + Hugging Face; $0.04/1M input, output free.
+  summary: Apache 2.0, 27B (Qwen3.8-27B-based) Yes/No, multi-choice, ordered score; 262k context; API + Hugging Face; $0.04/1M input, output free.
   url: https://aiweekly.co/alerts/perplexity-open-sources-27b-decider-edges-jev-on-11-test-panel
   url_label: AI Weekly
 - category: decision-models
@@ -2130,7 +2130,7 @@ entries:
   tags:
   - decision-models
   name: AWS Strands Decider 2B
-  summary: Apache 2.0, ~2B (Qwen3.5-2B with LM head replaced by pointer head): checkpoint-style agent decisions, no text generation; training data published; free/self-hosted.
+  summary: Apache 2.0, ~2B (Qwen3.5-2B with LM head replaced by pointer head) checkpoint-style agent decisions, no text generation; training data published; free/self-hosted.
   url: https://randomchaos.us/articles/strands-built-a-2b-model-that-never-writes-text/
   url_label: Random Chaos
 - category: decision-models
@@ -2138,7 +2138,7 @@ entries:
   tags:
   - decision-models
   name: Fastino GLiDE
-  summary: Hosted API with adaptive reasoning: fast first pass, extra reasoning only when uncertain, folded into final probabilities; 40k context; pricing not published.
+  summary: Hosted API with adaptive reasoning fast first pass, extra reasoning only when uncertain, folded into final probabilities; 40k context; pricing not published.
   url: https://www.marktechpost.com/2026/10/02/decision-ai-models-explained-typesafe-jev-vs-fastino-glide-gliner2-5-decide-and-open-source-competitors/
   url_label: MarkTechPost
 - category: decision-models
@@ -2146,7 +2146,7 @@ entries:
   tags:
   - decision-models
   name: Levanto Sage
-  summary: Hosted API: Yes/No, Choice, Scale, Sort, Tags; returns null for human escalation when uncertain; reasoning off/auto/on (~100-450ms with off); decision-unit plans.
+  summary: Hosted API Yes/No, Choice, Scale, Sort, Tags; returns null for human escalation when uncertain; reasoning off/auto/on (~100-450ms with off); decision-unit plans.
   url: https://levanto.ai
   url_label: Levanto
 - category: decision-models
@@ -2162,7 +2162,7 @@ entries:
   tags:
   - decision-models
   name: Nace AI Drex 1.5
-  summary: 8.95B open weights (Open RAIL-M): Choice/Score/Noul; Kev runtime, llama.cpp/Ollama fork, OpenRouter, Nace Console; $0.04/1M input, output free (DeepInfra).
+  summary: 8.95B open weights (Open RAIL-M) Choice/Score/Noul; Kev runtime, llama.cpp/Ollama fork, OpenRouter, Nace Console; $0.04/1M input, output free (DeepInfra).
   url: https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/
   url_label: MarkTechPost
 - category: decision-models
@@ -2170,7 +2170,7 @@ entries:
   tags:
   - decision-models
   name: Laya
-  summary: Apache 2.0, 421M/322M (ModernBERT + decision head): pip, MLX, Jev-compatible server, llama.cpp, Ollama-style runtime, C API; ~13ms on Apple Silicon (model-card measured).
+  summary: Apache 2.0, 421M/322M (ModernBERT + decision head) pip, MLX, Jev-compatible server, llama.cpp, Ollama-style runtime, C API; ~13ms on Apple Silicon (model-card measured).
   url: https://github.com/vishalmysore/layamoe/blob/HEAD/docs/laya-vs-jev-laya-deep-dive.md
   url_label: GitHub
 - category: decision-models
@@ -2178,7 +2178,7 @@ entries:
   tags:
   - decision-models
   name: Fastino GLiNER2.5-Decide
-  summary: Apache 2.0, 340M (DeBERTa-v3-large): constrained decoder preserves declared cross-question constraints; also returns spans/relations; CPU and air-gapped friendly.
+  summary: Apache 2.0, 340M (DeBERTa-v3-large) constrained decoder preserves declared cross-question constraints; also returns spans/relations; CPU and air-gapped friendly.
   url: https://www.marktechpost.com/2026/09/24/fastino-releases-gliner2-5-decide-a-340m-open-weight-decision-model-that-runs-on-cpu/
   url_label: MarkTechPost
 - category: decision-models
@@ -2186,7 +2186,7 @@ entries:
   tags:
   - decision-models
   name: H2O AI H2O-Lightning-4B
-  summary: Apache 2.0, 4B (Qwen3.5-4B, ~9.1GB): text+image choice/yes-no/score in one forward pass plus one output token; 29ms median (H2O-measured).
+  summary: Apache 2.0, 4B (Qwen3.5-4B, ~9.1GB) text+image choice/yes-no/score in one forward pass plus one output token; 29ms median (H2O-measured).
   url: https://www.tipranks.com/news/private-companies/h2o-ai-highlights-benchmark-results-for-open-weight-lightning-4b-model
   url_label: TipRanks
 - category: decision-models
@@ -2210,7 +2210,7 @@ entries:
   tags:
   - decision-models
   name: kev-0.5b / OpenJev
-  summary: Small indie reproductions: kev-0.5b (Qwen2.5-0.5B + LoRA/readout head, ~160ms for 6 questions on Apple M5); OpenJev reads Qwen3.5-4B option logits (0.845 vs Jev 0.883 balanced accuracy, author eval).
+  summary: Small indie reproductions kev-0.5b (Qwen2.5-0.5B + LoRA/readout head, ~160ms for 6 questions on Apple M5); OpenJev reads Qwen3.5-4B option logits (0.845 vs Jev 0.883 balanced accuracy, author eval).
   url: https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/
   url_label: MarkTechPost
 - category: decision-models
@@ -2218,7 +2218,7 @@ entries:
   tags:
   - decision-models
   name: MIMIR
-  summary: Open decision model: 7 decision types, abstains when it cannot support an answer; CPU/CUDA local torch engine, HTTP, MCP, and 8 agent-SDK adapters.
+  summary: Open decision model 7 decision types, abstains when it cannot support an answer; CPU/CUDA local torch engine, HTTP, MCP, and 8 agent-SDK adapters.
   url: https://github.com/abderahmane-ai/mimir
   url_label: GitHub
 - category: decision-models
@@ -2234,7 +2234,7 @@ entries:
   tags:
   - decision-models
   name: DecisionNode Edge / Edge Mini
-  summary: Open-weight DecisionNode for own hardware: Edge 2.2B, Edge Mini 0.85B (CPU/constrained devices); same request shape and choice/score/truth/number/point/box types over text + images, offline on GPU/Mac/CPU/embedded; AGPL-3.0 via Hugging Face, commercial licence for closed products.
+  summary: Open-weight DecisionNode for own hardware Edge 2.2B, Edge Mini 0.85B (CPU/constrained devices); same request shape and choice/score/truth/number/point/box types over text + images, offline on GPU/Mac/CPU/embedded; AGPL-3.0 via Hugging Face, commercial licence for closed products.
   url: https://decisionnode.com/#model
   url_label: DecisionNode
 - category: decision-models
@@ -2278,7 +2278,7 @@ entries:
 - name: vLLM
   category: inference-engines
   section: null
-  summary: High-throughput production serving engine: PagedAttention, continuous batching and speculative decoding; wide format support (safetensors, AWQ, GPTQ, FP8); OpenAI-compatible API.
+  summary: High-throughput production serving engine PagedAttention, continuous batching and speculative decoding; wide format support (safetensors, AWQ, GPTQ, FP8); OpenAI-compatible API.
   url: https://github.com/vllm-project/vllm
   url_label: GitHub
   extra:
@@ -2288,7 +2288,7 @@ entries:
 - name: SGLang
   category: inference-engines
   section: null
-  summary: High-performance serving framework for LLMs and multimodal models: RadixAttention prefix caching, continuous batching and structured outputs; runs from a single GPU to large distributed clusters; OpenAI-compatible API.
+  summary: High-performance serving framework for LLMs and multimodal models RadixAttention prefix caching, continuous batching and structured outputs; runs from a single GPU to large distributed clusters; OpenAI-compatible API.
   url: https://github.com/sgl-project/sglang
   url_label: GitHub
   extra:
@@ -2298,7 +2298,7 @@ entries:
 - name: TensorRT-LLM
   category: inference-engines
   section: null
-  summary: NVIDIA's inference library for maximum performance on NVIDIA GPUs: optimized kernels, in-flight batching, FP8 and NVFP4 quantization; OpenAI-compatible trtllm-serve server.
+  summary: NVIDIA's inference library for maximum performance on NVIDIA GPUs optimized kernels, in-flight batching, FP8 and NVFP4 quantization; OpenAI-compatible trtllm-serve server.
   url: https://github.com/NVIDIA/TensorRT-LLM
   url_label: GitHub
   extra:
@@ -2328,7 +2328,7 @@ entries:
 - name: vMLX
   category: inference-engines
   section: null
-  summary: Apple Silicon engine (MIT): full-precision paged KV cache that spills to SSD so prefixes survive restarts, continuous batching, speculative decoding and a built-in GGUF-to-MLX converter; OpenAI, Anthropic and Ollama APIs; no account, no telemetry.
+  summary: Apple Silicon engine (MIT) full-precision paged KV cache that spills to SSD so prefixes survive restarts, continuous batching, speculative decoding and a built-in GGUF-to-MLX converter; OpenAI, Anthropic and Ollama APIs; no account, no telemetry.
   url: https://vmlx.net/
   url_label: vMLX
   extra:
@@ -2348,7 +2348,7 @@ entries:
 - name: macMLX
   category: inference-engines
   section: null
-  summary: Native engine whose inference core is Swift and in-process, with no Python anywhere: SwiftUI app, CLI and OpenAI/Anthropic/Ollama APIs on one engine; continuous batching, prompt caching and VLM support; Apache-2.0.
+  summary: Native engine whose inference core is Swift and in-process, with no Python anywhere SwiftUI app, CLI and OpenAI/Anthropic/Ollama APIs on one engine; continuous batching, prompt caching and VLM support; Apache-2.0.
   url: https://macmlx.app/
   url_label: macMLX
   extra:
@@ -2398,7 +2398,7 @@ entries:
 - name: KoboldCpp
   category: inference-engines
   section: null
-  summary: Single-executable llama.cpp fork with a built-in web UI: zero-install GGUF inference with KoboldAI, OpenAI and Ollama compatible APIs; popular for creative writing and roleplay.
+  summary: Single-executable llama.cpp fork with a built-in web UI zero-install GGUF inference with KoboldAI, OpenAI and Ollama compatible APIs; popular for creative writing and roleplay.
   url: https://github.com/LostRuins/koboldcpp
   url_label: GitHub
   extra:
@@ -2428,8 +2428,18 @@ entries:
 - name: mistral.rs
   category: inference-engines
   section: null
-  summary: Rust inference engine: fast CPU and GPU inference with in-situ quantization, paged attention and multi-GPU support; runs GGUF, GGML and Hugging Face models behind an OpenAI-compatible server.
+  summary: Rust inference engine fast CPU and GPU inference with in-situ quantization, paged attention and multi-GPU support; runs GGUF, GGML and Hugging Face models behind an OpenAI-compatible server.
   url: https://github.com/EricLBuehler/mistral.rs
+  url_label: GitHub
+  extra:
+    os: Linux, macOS, Windows
+  tags:
+  - inference-engines
+- name: TensorFold
+  category: inference-engines
+  section: null
+  summary: TensorFold serves language models from a Zig binary on Apple Silicon and NVIDIA GPUs. The engine reads checkpoints, tokenizes requests and runs Metal or CUDA kernels directly. Serving needs no Python or MLX installation.
+  url: https://github.com/ashhart/TensorFold
   url_label: GitHub
   extra:
     os: Linux, macOS, Windows
