@@ -30,6 +30,7 @@ Curated links for ChatGPT, LLMs, prompt engineering, agent frameworks, coding to
 | Decision Models | Non-generative models that return choices, probabilities, and scores for machine decisions. | [Decision Models](docs/categories/decision-models/readme.md) |
 | Open Weight Models | Models with publicly released weights for self-hosting and fine-tuning. | [Open Weight Models](docs/categories/open-weight-models/readme.md) |
 | Small Models | Compact models for edge, local, and resource-constrained use. | [Small Models](docs/categories/small-models/readme.md) |
+| Local LLM Inference Engines | Engines and runtimes for running LLMs locally and self-hosted. | [Local LLM Inference Engines](docs/categories/inference-engines/readme.md) |
 | OpenClaw | OpenClaw and its variants | [OpenClaw](docs/categories/openclaw/readme.md) |
 | Other Resources | Miscellaneous repositories, references, and adjacent projects. | [Other Resources](docs/categories/other-resources/readme.md) |
 | Prompt Engineering | Guides, prompt collections, and learning resources for prompt design. | [Prompt Engineering](docs/categories/prompt-engineering/readme.md) |

@@ -11,11 +11,6 @@ Supporting tools, platforms, and utilities around LLM workflows.
 Perplexica is an AI-powered search engine. It is an Open source alternative to Perplexity AI  
 https://github.com/ItzCrazyKns/Perplexica
 
-## Ollama
-
-Get up and running with Llama 2 and other large language models locally  
-https://github.com/jmorganca/ollama
-
 ## LangSmith
 
 LangSmith lets you export data to common formats such as CSV or JSONL directly in the web app.  
