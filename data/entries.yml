@@ -2435,16 +2435,16 @@ entries:
     os: Linux, macOS, Windows
   tags:
   - inference-engines
-  - name: TensorFold
-    category: inference-engines
-    section: null
-    summary: TensorFold serves language models from a Zig binary on Apple Silicon and NVIDIA GPUs. The engine reads checkpoints, tokenizes requests and runs Metal or CUDA kernels directly. Serving needs no Python or MLX installation.
-    url: https://github.com/ashhart/TensorFold
-    url_label: GitHub
-    extra:
-      os: Linux, macOS, Windows
-    tags:
-    - inference-engines
+- name: TensorFold
+  category: inference-engines
+  section: null
+  summary: TensorFold serves language models from a Zig binary on Apple Silicon and NVIDIA GPUs. The engine reads checkpoints, tokenizes requests and runs Metal or CUDA kernels directly. Serving needs no Python or MLX installation.
+  url: https://github.com/ashhart/TensorFold
+  url_label: GitHub
+  extra:
+    os: Linux, macOS, Windows
+  tags:
+  - inference-engines
 - category: openclaw
   section: null
   tags: []
