@@ -2246,7 +2246,7 @@ entries:
 - name: llama.cpp
   category: inference-engines
   section: null
-  summary: The foundational C/C++ inference engine for consumer hardware; defines the GGUF format, runs on macOS, Windows, Linux, mobile and WebAssembly with CPU or GPU, and underpins Ollama, LM Studio, KoboldCpp and GPT4All.
+  summary: The foundational C/C++ inference engine for consumer hardware; defines the GGUF format and underpins Ollama, LM Studio, KoboldCpp and GPT4All, with CPU or GPU inference. OS: macOS, Windows, Linux, Android, iOS, WebAssembly.
   url: https://github.com/ggml-org/llama.cpp
   url_label: GitHub
   tags:
@@ -2254,7 +2254,7 @@ entries:
 - name: Ollama
   category: inference-engines
   section: null
-  summary: One-command local LLM runner for macOS, Windows and Linux; GGUF models from a built-in registry, with OpenAI- and Anthropic-compatible APIs on localhost; the developer default for quick local testing.
+  summary: One-command local LLM runner with a built-in model registry (GGUF) and OpenAI- and Anthropic-compatible APIs on localhost; the developer default for quick local testing. OS: macOS, Windows, Linux.
   url: https://ollama.com/
   url_label: Ollama
   tags:
@@ -2262,7 +2262,7 @@ entries:
 - name: LM Studio
   category: inference-engines
   section: null
-  summary: Desktop app for browsing, downloading and chatting with local models (GGUF and MLX backends), with an OpenAI-compatible local server and a headless llmster daemon; closed-source, free for personal use.
+  summary: Desktop app for browsing, downloading and chatting with local models (GGUF and MLX backends), with an OpenAI-compatible local server and a headless llmster daemon; closed-source, free for personal use. OS: macOS, Windows, Linux.
   url: https://lmstudio.ai/
   url_label: LM Studio
   tags:
@@ -2270,7 +2270,7 @@ entries:
 - name: vLLM
   category: inference-engines
   section: null
-  summary: High-throughput production serving engine (Linux, GPU): PagedAttention, continuous batching and speculative decoding; wide format support (safetensors, AWQ, GPTQ, FP8); OpenAI-compatible API.
+  summary: High-throughput production serving engine: PagedAttention, continuous batching and speculative decoding; wide format support (safetensors, AWQ, GPTQ, FP8); OpenAI-compatible API. OS: Linux (GPU).
   url: https://github.com/vllm-project/vllm
   url_label: GitHub
   tags:
@@ -2278,7 +2278,7 @@ entries:
 - name: SGLang
   category: inference-engines
   section: null
-  summary: High-performance serving framework for LLMs and multimodal models: RadixAttention prefix caching, continuous batching and structured outputs; runs from a single GPU to large distributed clusters; OpenAI-compatible API.
+  summary: High-performance serving framework for LLMs and multimodal models: RadixAttention prefix caching, continuous batching and structured outputs; runs from a single GPU to large distributed clusters; OpenAI-compatible API. OS: Linux (also supports Apple Silicon).
   url: https://github.com/sgl-project/sglang
   url_label: GitHub
   tags:
@@ -2286,7 +2286,7 @@ entries:
 - name: TensorRT-LLM
   category: inference-engines
   section: null
-  summary: NVIDIA's inference library for maximum performance on NVIDIA GPUs: optimized kernels, in-flight batching, FP8 and NVFP4 quantization; OpenAI-compatible trtllm-serve server.
+  summary: NVIDIA's inference library for maximum performance on NVIDIA GPUs: optimized kernels, in-flight batching, FP8 and NVFP4 quantization; OpenAI-compatible trtllm-serve server. OS: Linux.
   url: https://github.com/NVIDIA/TensorRT-LLM
   url_label: GitHub
   tags:
@@ -2294,7 +2294,7 @@ entries:
 - name: MLX
   category: inference-engines
   section: null
-  summary: Apple's open-source ML framework for Apple Silicon, built on unified memory with no CPU-GPU copying; the mlx-lm package adds LLM inference, an OpenAI-compatible server, quantization and LoRA fine-tuning; Python and Swift APIs.
+  summary: Apple's open-source ML framework built on unified memory with no CPU-GPU copying; the mlx-lm package adds LLM inference, an OpenAI-compatible server, quantization and LoRA fine-tuning; Python and Swift APIs. OS: macOS (Apple Silicon).
   url: https://github.com/ml-explore/mlx
   url_label: GitHub
   tags:
@@ -2302,7 +2302,7 @@ entries:
 - name: Splash
   category: inference-engines
   section: null
-  summary: Apple Silicon engine (M3 or newer, macOS 26.4+) built around per-model DFlash 2 speculative decoding and specialized Metal kernels; automatic prefix reuse and request batching, vision and tool calling; OpenAI and Anthropic APIs aimed at coding agents; GGUF and MLX models; Apache-2.0.
+  summary: Apple Silicon engine built around per-model DFlash 2 speculative decoding and specialized Metal kernels; automatic prefix reuse and request batching, vision and tool calling; OpenAI and Anthropic APIs aimed at coding agents; GGUF and MLX models; Apache-2.0. OS: macOS 26.4+ (Apple Silicon, M3 or newer).
   url: https://github.com/incoai/splash
   url_label: GitHub
   tags:
@@ -2310,7 +2310,7 @@ entries:
 - name: vMLX
   category: inference-engines
   section: null
-  summary: Apple Silicon engine (M1-M5, macOS 14+, MIT): full-precision paged KV cache that spills to SSD so prefixes survive restarts, continuous batching, speculative decoding and a built-in GGUF-to-MLX converter; OpenAI, Anthropic and Ollama APIs; no account, no telemetry.
+  summary: Apple Silicon engine (MIT): full-precision paged KV cache that spills to SSD so prefixes survive restarts, continuous batching, speculative decoding and a built-in GGUF-to-MLX converter; OpenAI, Anthropic and Ollama APIs; no account, no telemetry. OS: macOS 14+ (Apple Silicon, M1-M5).
   url: https://vmlx.net/
   url_label: vMLX
   tags:
@@ -2318,7 +2318,7 @@ entries:
 - name: oMLX
   category: inference-engines
   section: null
-  summary: macOS-native MLX server (Apple Silicon, macOS 15+, Apache-2.0): paged SSD KV cache restores prefixes across requests and restarts, continuous batching, multi-model serving (LLM, VLM, embedding, reranker) and a menu-bar app; OpenAI and Anthropic APIs.
+  summary: MLX server with a paged SSD KV cache that restores prefixes across requests and restarts, continuous batching, multi-model serving (LLM, VLM, embedding, reranker) and a menu-bar app; OpenAI and Anthropic APIs; Apache-2.0. OS: macOS 15+ (Apple Silicon).
   url: https://omlx.ai/
   url_label: oMLX
   tags:
@@ -2326,7 +2326,7 @@ entries:
 - name: macMLX
   category: inference-engines
   section: null
-  summary: Native macOS engine whose inference core is Swift and in-process, with no Python anywhere: SwiftUI app, CLI and OpenAI/Anthropic/Ollama APIs on one engine; continuous batching, prompt caching and VLM support; Apple Silicon, macOS 14+, Apache-2.0.
+  summary: Native engine whose inference core is Swift and in-process, with no Python anywhere: SwiftUI app, CLI and OpenAI/Anthropic/Ollama APIs on one engine; continuous batching, prompt caching and VLM support; Apache-2.0. OS: macOS 14+ (Apple Silicon).
   url: https://macmlx.app/
   url_label: macMLX
   tags:
@@ -2334,7 +2334,7 @@ entries:
 - name: Strata
   category: inference-engines
   section: null
-  summary: Cross-platform inference engine (Windows, Linux, macOS; MIT) tuned for very large MoE models on consumer hardware, streaming what does not fit in memory from SSD; one-click install with desktop and terminal apps; OpenAI and Anthropic APIs on localhost.
+  summary: Inference engine tuned for very large MoE models on consumer hardware, streaming what does not fit in memory from SSD; one-click install with desktop and terminal apps; OpenAI and Anthropic APIs on localhost; MIT. OS: Windows, Linux, macOS.
   url: https://github.com/Niko1221/Strata
   url_label: GitHub
   tags:
@@ -2342,7 +2342,7 @@ entries:
 - name: Exo
   category: inference-engines
   section: null
-  summary: Distributed inference that pools multiple Macs and other devices peer-to-peer into a single cluster, so models too large for one machine (e.g. 671B MoE) run across their combined memory; alpha.
+  summary: Distributed inference that pools multiple devices peer-to-peer into a single cluster, so models too large for one machine (e.g. 671B MoE) run across their combined memory; alpha. OS: macOS, Linux, iOS.
   url: https://github.com/exo-explore/exo
   url_label: GitHub
   tags:
@@ -2350,7 +2350,7 @@ entries:
 - name: LocalAI
   category: inference-engines
   section: null
-  summary: Drop-in OpenAI and Anthropic API replacement that runs models locally across multiple backends (llama.cpp, vLLM, MLX and more); text, image, audio, video and embeddings; no GPU required.
+  summary: Drop-in OpenAI and Anthropic API replacement that runs models locally across multiple backends (llama.cpp, vLLM, MLX and more); text, image, audio, video and embeddings; no GPU required. OS: Linux, macOS, Windows.
   url: https://github.com/mudler/LocalAI
   url_label: GitHub
   tags:
@@ -2358,7 +2358,7 @@ entries:
 - name: Jan
   category: inference-engines
   section: null
-  summary: Privacy-first open-source desktop app (AGPL-3.0) that runs GGUF and MLX models fully offline, with hybrid local + cloud model switching and MCP support; macOS, Windows and Linux.
+  summary: Privacy-first open-source desktop app (AGPL-3.0) that runs GGUF and MLX models fully offline, with hybrid local + cloud model switching and MCP support. OS: macOS, Windows, Linux.
   url: https://github.com/janhq/jan
   url_label: GitHub
   tags:
@@ -2366,7 +2366,7 @@ entries:
 - name: KoboldCpp
   category: inference-engines
   section: null
-  summary: Single-executable llama.cpp fork with a built-in web UI: zero-install GGUF inference with KoboldAI, OpenAI and Ollama compatible APIs; popular for creative writing and roleplay.
+  summary: Single-executable llama.cpp fork with a built-in web UI: zero-install GGUF inference with KoboldAI, OpenAI and Ollama compatible APIs; popular for creative writing and roleplay. OS: Windows, Linux, macOS, Android.
   url: https://github.com/LostRuins/koboldcpp
   url_label: GitHub
   tags:
@@ -2374,7 +2374,7 @@ entries:
 - name: GPT4All
   category: inference-engines
   section: null
-  summary: Desktop app by Nomic AI for running GGUF models privately on consumer hardware, with built-in LocalDocs for chatting with your own documents (local RAG); macOS, Windows and Linux.
+  summary: Desktop app by Nomic AI for running GGUF models privately on consumer hardware, with built-in LocalDocs for chatting with your own documents (local RAG). OS: macOS, Windows, Linux.
   url: https://github.com/nomic-ai/gpt4all
   url_label: GitHub
   tags:
@@ -2382,7 +2382,7 @@ entries:
 - name: MLC-LLM
   category: inference-engines
   section: null
-  summary: Machine-learning compilation engine that deploys LLMs natively across GPUs, browsers (WebGPU), phones and CPUs from a single model definition; built on Apache TVM.
+  summary: Machine-learning compilation engine that deploys LLMs natively from a single model definition; built on Apache TVM. OS: Windows, Linux, macOS, iOS, Android, Web (WebGPU).
   url: https://github.com/mlc-ai/mlc-llm
   url_label: GitHub
   tags:
@@ -2390,7 +2390,7 @@ entries:
 - name: mistral.rs
   category: inference-engines
   section: null
-  summary: Rust inference engine: fast CPU and GPU inference with in-situ quantization, paged attention and multi-GPU support; runs GGUF, GGML and Hugging Face models behind an OpenAI-compatible server.
+  summary: Rust inference engine: fast CPU and GPU inference with in-situ quantization, paged attention and multi-GPU support; runs GGUF, GGML and Hugging Face models behind an OpenAI-compatible server. OS: Linux, macOS, Windows.
   url: https://github.com/EricLBuehler/mistral.rs
   url_label: GitHub
   tags:
