@@ -69,11 +69,6 @@ https://github.com/lm-sys/FastChat#fine-tuning
 SGPT: GPT Sentence Embeddings for Semantic Search  
 https://github.com/Muennighoff/sgpt
 
-## GPT4All
-
-Demo, data and code to train an assistant-style large language model with ~800k GPT-3.5-Turbo Generations based on LLaMa  
-https://github.com/nomic-ai/gpt4all
-
 ## FastChat
 
 An open platform for training, serving, and evaluating large language model based chatbots.  

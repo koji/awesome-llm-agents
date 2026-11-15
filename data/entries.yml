@@ -2594,13 +2594,6 @@ entries:
   url: https://github.com/Muennighoff/sgpt
   tags:
   - other-resources
-- name: GPT4All
-  category: other-resources
-  section: null
-  summary: Demo, data and code to train an assistant-style large language model with ~800k GPT-3.5-Turbo Generations based on LLaMa
-  url: https://github.com/nomic-ai/gpt4all
-  tags:
-  - other-resources
 - name: FastChat
   category: other-resources
   section: null
@@ -2693,13 +2686,6 @@ entries:
   section: null
   summary: Perplexica is an AI-powered search engine. It is an Open source alternative to Perplexity AI
   url: https://github.com/ItzCrazyKns/Perplexica
-  tags:
-  - tools
-- name: Ollama
-  category: tools
-  section: null
-  summary: Get up and running with Llama 2 and other large language models locally
-  url: https://github.com/jmorganca/ollama
   tags:
   - tools
 - name: LangSmith
