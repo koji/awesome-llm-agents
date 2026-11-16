@@ -63,3 +63,8 @@ https://github.com/kepano/obsidian-skills
 
 Agent skills library for science: validated skills and scientific databases for biology, chemistry, and medicine.  
 https://github.com/K-Dense-AI/scientific-agent-skills
+
+## voygr-tech/placecall
+
+Agent skill and hosted MCP server that let a coding agent phone US businesses for bookings and quotes and get back the outcome and transcript.  
+https://github.com/voygr-tech/placecall
