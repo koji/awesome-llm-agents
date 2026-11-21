@@ -63,3 +63,8 @@ https://github.com/kepano/obsidian-skills
 
 Agent skills library for science: validated skills and scientific databases for biology, chemistry, and medicine.  
 https://github.com/K-Dense-AI/scientific-agent-skills
+
+## tonydzi/second-brain-starter-kit
+
+Skills for Claude Code and Codex shipped as a plugin marketplace, with opt-in MCP memory and vault templates.  
+https://github.com/tonydzi/second-brain-starter-kit
