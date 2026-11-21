@@ -1385,6 +1385,14 @@ entries:
   section: null
   tags:
   - closed-models
+  name: Gemini 4 Hydrogen
+  summary: Released Nov 12, 2026. $1.50 input / $7.50 output per 1M tokens, flat across the full 1M-token context; built for speed and efficiency in everyday coding and agentic workflows, with four thinking levels up to a new xhigh tier; default model for Antigravity managed agents; API model gemini-4-hydrogen.
+  url: https://ai.google.dev/gemini-api/docs/models/gemini-4-hydrogen
+  url_label: Google
+- category: closed-models
+  section: null
+  tags:
+  - closed-models
   name: Gemini 4 Carbon
   summary: "Released Nov 10, 2026 (announced Oct 28 for Fairwind defenders). Google's strongest model; introductory $2 input / $10 output per 1M tokens through Nov 30, 2026, then $4/$20; 1,048,576-token unified context; #1 on Artificial Analysis Intelligence Index v5.0 (59); API model gemini-4-carbon."
   url: https://ai.google.dev/gemini-api/docs/models/gemini-4-carbon
@@ -1501,6 +1509,14 @@ entries:
   summary: ''
   url: https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.0-pro
   url_label: Google
+- category: closed-models
+  section: null
+  tags:
+  - closed-models
+  name: Qwen4-Max
+  summary: Released Nov 16, 2026. $1.50 input / $4.50 output per 1M tokens; Alibaba's flagship Qwen4 model with native vision and video understanding and a 1M-token context; closed weights, available via QwenCloud and Alibaba Cloud Model Studio; API model qwen4-max.
+  url: https://www.alibabagroup.com/en-US/document-2060139246777270272
+  url_label: Alibaba
 - category: open-weight-models
   section: null
   tags:
